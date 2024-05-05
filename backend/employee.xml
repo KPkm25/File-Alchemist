@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <rank>Manager</rank>
+        <salary>60000</salary>
+        <date_of_joining>2020-05-15</date_of_joining>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <rank>Engineer</rank>
+        <salary>55000</salary>
+        <date_of_joining>2019-10-20</date_of_joining>
+    </employee>
+    <employee>
+        <name>Michael Johnson</name>
+        <rank>Developer</rank>
+        <salary>58000</salary>
+        <date_of_joining>2021-02-10</date_of_joining>
+    </employee>
+    <employee>
+        <name>Sarah Lee</name>
+        <rank>Analyst</rank>
+        <salary>50000</salary>
+        <date_of_joining>2020-08-28</date_of_joining>
+    </employee>
+    <employee>
+        <name>David Brown</name>
+        <rank>Designer</rank>
+        <salary>52000</salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David </name>
+        <rank>Designer</rank>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name></name>
+        <rank>Designer</rank>
+        <salary>52000</salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <rank>Designer</rank>
+        <salary>52000</salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <rank></rank>
+        <salary>52000</salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <salary>52000</salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <rank>Designer</rank>
+        <salary></salary>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <rank>Designer</rank>
+        <date_of_joining>2018-12-03</date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <rank>Designer</rank>
+        <salary>52000</salary>
+        <date_of_joining></date_of_joining>
+    </employee>
+        <employee>
+        <name>David Brown</name>
+        <rank>Designer</rank>
+        <salary>52000</salary>
+    </employee>
+</employees>
