@@ -11,7 +11,11 @@ const converts = require('./routes/api/convert');
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin:["https://file-alchemist.vercel.app/"],
+  methods:["POST","GET"],
+  credentials:true
+}));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
