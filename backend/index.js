@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin:["https://file-alchemist.vercel.app/"],
+  origin:["https://file-alchemist.vercel.app"],
   methods:["POST","GET"],
   credentials:true
 }));
