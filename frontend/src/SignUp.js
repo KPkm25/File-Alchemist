@@ -18,7 +18,7 @@ function SignUpForm() {
     formData.append("excel", file);
   
     try {
-      const response = await axios.post("http://localhost:5000/api/convert", formData, {
+      const response = await axios.post("https://alchemist-api.vercel.app/api/convert", formData, {
         responseType: 'blob', // Ensure response is treated as a blob
       });
       toast.success('File uploaded successfully!');
