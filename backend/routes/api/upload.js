@@ -14,7 +14,7 @@ const upload = multer({ storage: storage });
 router.post('/', upload.single('xml'), async (req, res) => {
     try {
       // Parse XML data
-      const xmlData = fs.readFileSync(req.file.originalname, 'utf-8');
+      const xmlData = req.file.buffer.toString('utf-8');
       const jsonResult = await parseString(xmlData);
       const employees = jsonResult.employees.employee;
   
